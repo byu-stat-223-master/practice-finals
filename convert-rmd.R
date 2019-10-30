@@ -4,4 +4,4 @@
 
 rmd_files <- fs::dir_ls(recurse = TRUE, regexp = "(README.Rmd)")
 
-purrr::walk(rmd_files, rmarkdown::render, output_format = c("github_document", "html_document"))
+purrr::walk(rmd_files, purrr::safely(rmarkdown::render), output_format = c("github_document", "html_document"))
