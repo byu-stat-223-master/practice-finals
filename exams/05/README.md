@@ -60,8 +60,7 @@ step.
 You work in the entertainment industry and you are tasked with
 understanding and predicting television ratings for a popular show. The
 following data contains TV ratings for the past 5 seasons of the show
-(each season is 10
-episodes):
+(each season is 10 episodes):
 
 ``` r
 ratings <- c(7.76,6.48,7.61,7.95,8.45,8.70,6.05,8.97,8.97,9.68,7.55,6.90,7.56,
@@ -83,8 +82,7 @@ determine if there is significant autocorrelation in the ratings.
 4.  Using the results from 1 and 2, calculate an estimated P value for
     the observed autocorrelation (5 points)
 5.  Calculate a 95% confidence interval on the P value you estimated in
-    step 3 (5
-points)
+    step 3 (5 points)
 
 -----
 
